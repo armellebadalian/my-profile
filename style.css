@@ -1,0 +1,184 @@
+body {
+
+       background-color: #EFC7F1;
+
+       color: rgb(30, 30, 30);
+
+       font-family: 'Ubuntu', sans-serif;
+
+}
+
+ 
+
+h2{
+
+       font-family: 'Ubuntu', sans-serif;
+
+       color: rgb(230, 230, 230);
+
+}
+
+ 
+
+h1{    color: white;
+
+       font-family: 'Ubuntu', sans-serif;
+
+       font-weight: 50;
+
+       letter-spacing: -1px;
+
+       font-size: 40px;
+
+ 
+
+}
+
+ 
+
+a {
+
+   text-decoration: none;
+
+   color: #6B72E1;
+
+}
+
+a:hover {
+
+   color: blue;
+
+}
+
+
+div {
+
+    margin: 20px;
+
+}
+
+
+.container {
+
+    width: 700px;
+
+    margin: 40px auto;
+
+}
+
+
+@media (max-width: 760px) {
+
+ 
+
+.container {
+
+    width: 600px;
+
+                }
+
+}
+
+
+@media (max-width: 500px) {
+
+ 
+
+.container {
+
+    width: 400px;
+
+                }
+
+}
+
+
+.card-white {
+
+    background-color: #B1CBF7;
+
+    padding: 40px;
+
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+
+    border-radius: 4px;
+
+    margin: 20px, 0px;
+
+    text-align: center;
+
+}
+
+
+.img-circle {
+
+    width: 150px;
+
+    border-radius: 5px;
+    border-width: 3px;
+    border-color: #EFC7F1;
+    border-style: solid;
+
+}
+
+
+.btn-blue {
+
+    background-color: #EFC7F1;
+
+    color: black;
+
+    padding: 10px 15px;
+
+    border-radius: 4px;
+
+}
+
+
+.btn-blue:hover {
+
+       background-color: #91B6F6;
+
+    color: black;
+
+}
+
+
+.list-inline {
+
+          
+
+    list-style: none;
+
+    padding-left: 0px;
+
+}
+
+.list-inline li {
+
+    display: inline;
+
+    padding: 10px;
+
+}
+
+.list-inline i {
+
+    font-size: 60px;
+
+    color: #EFC7F1;
+
+}
+
+.list-inline i:hover {
+
+    color: #91B6F6;
+
+}
+
+
+#introduction p {
+
+    margin-bottom: 40px;
+
+}
